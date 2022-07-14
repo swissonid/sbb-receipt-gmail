@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "receipt-gmail", "receipt-gmail.csproj", "{F092687B-9D24-431D-9A22-8C60FDECC6A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbb-receipt-gmail", "sbb-receipt-gmail.csproj", "{F092687B-9D24-431D-9A22-8C60FDECC6A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
