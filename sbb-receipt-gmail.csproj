@@ -7,10 +7,15 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <!-- https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json -->
+        <RuntimeIdentifier>osx.12-arm64</RuntimeIdentifier>
+        <PublishReadyToRun>true</PublishReadyToRun>
+        <PublishSingleFile>true</PublishSingleFile>
+        <PublishTrimmed>true</PublishTrimmed>
+        <SelfContained>true</SelfContained>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Google.Apis.Document.v1" Version="1.57.0.2748" />
       <PackageReference Include="Google.Apis.Gmail.v1" Version="1.57.0.2650" />
       <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
     </ItemGroup>
@@ -20,5 +25,5 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
-
+    
 </Project>
