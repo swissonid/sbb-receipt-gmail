@@ -10,7 +10,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Google.Apis.Document.v1" Version="1.57.0.2748" />
       <PackageReference Include="Google.Apis.Gmail.v1" Version="1.57.0.2650" />
+      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
     </ItemGroup>
 
     <ItemGroup>
